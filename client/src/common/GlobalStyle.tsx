@@ -1,24 +1,26 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset'
 import './font.scss'
+import './getvw.scss'
 
 const GlobalStyle = createGlobalStyle`
 ${reset};
 
 html {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    font-size: 10px;
 }
-
-body {
-    max-width: 500px;
-    background:#ECF1F5;
-}
-
 button {
     border:none;
+    background:none;
+}
+
+input {
+    border:none;
+    outline:none;
+}
+
+a {
+    text-decoration:none;
 }
 `;
 

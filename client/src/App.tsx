@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GlobalStyle from './common/GlobalStyle';
-import Login from './pages/Login/Login';
+import Main from './pages/Main/Main';
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <GlobalStyle />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Login />}></Route>
+          <Route path="/" element={<Main />}></Route>
         </Routes>
       </BrowserRouter>
     </>

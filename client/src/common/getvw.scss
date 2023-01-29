@@ -1,0 +1,5 @@
+
+
+@function pcvw($valueAtWidth) {
+    @return $valueAtWidth*100vw/1920px;
+}
